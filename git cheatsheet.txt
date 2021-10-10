@@ -1,0 +1,21 @@
+1.  git config --global user.name "Dharambir Kumar"
+2.  git config --global user.name "kumar.dharambir99@gmail.com"
+3.  touch .gitignore
+4.  git init
+5.  git add .
+6.  git commit -m "Initial Commit"
+7.  git status
+8.  git remote add origin git@github.com:dharambir/weather-app.git
+9.  git push origin master
+10. git push
+--------------
+git remote add github git@github.com:dharambir/weather-app.git
+
+GENERATING SSH KEY
+----
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+ssh-keygen -t rsa -b 4096 -C "kumar.dharambir99@gmail.com"
+-----
+ssh-keygen  // copy that past in bash cmd terminal
+ssh-agent // that command tell you active connection list and some SSH key information
+---
