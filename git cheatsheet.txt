@@ -19,3 +19,6 @@ ssh-keygen -t rsa -b 4096 -C "kumar.dharambir99@gmail.com"
 ssh-keygen  // copy that past in bash cmd terminal
 ssh-agent // that command tell you active connection list and some SSH key information
 ---
+GIT CLONE
+----------
+git clone https://github.com/dharambir/weather-app.git
