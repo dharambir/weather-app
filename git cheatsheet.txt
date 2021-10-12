@@ -22,3 +22,7 @@ ssh-agent // that command tell you active connection list and some SSH key infor
 GIT CLONE
 ----------
 git clone https://github.com/dharambir/weather-app.git
+
+Pull from git
+-----
+git pull origin master
