@@ -2,7 +2,6 @@ const request = require('request');
 const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
-// console.log(process.argv[2]);
 if (process.argv[2] == undefined) {
     return console.log('Please enter location!');
 }
